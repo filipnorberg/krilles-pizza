@@ -1,6 +1,17 @@
 ---
 title: 'Hello, world'
-layout: 'layouts/home.html'
+layout: 'base.html'
 ---
 
-This is pretty _rad_, right?
+# {{ meta.title }}
+
+{{ meta.tagline }}
+
+## {{ meta.phone }}
+## {{ meta.adress }}
+
+## Öppettider
+### Mån - Fre 
+{{ meta.hours1 }}
+### Lör - Sön
+{{ meta.hours2 }}
