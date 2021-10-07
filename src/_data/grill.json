@@ -1,0 +1,55 @@
+{
+    "items": [
+        {
+            "number": 1,
+            "name": "Kebabtallrik",
+            "price": 85,
+            "description": [
+                "Kebab", 
+                "Pommes Frites", 
+                "Vitlökssås", 
+                "Jalapéno"
+            ]
+        },
+        {
+            "number": 2,
+            "name": "Gyrostallrik",
+            "price": 85,
+            "description": [
+                "Fläsk", 
+                "Pommes Frites", 
+                "Vitlökssås"
+            ]
+        },
+        {
+            "number": 3,
+            "name": "Kycklingtallrik",
+            "price": 85,
+            "description": [
+                "Kyckling", 
+                "Pommes Frites", 
+                "Currysås"
+            ]
+        },
+        {
+            "number": 4,
+            "name": "Kebabrulle",
+            "price": 85,
+            "description": [
+                "Kebab", 
+                "Jalapéno", 
+                "Vitlökssås"
+            ]
+        },
+        {
+            "number": 5,
+            "name": "Kycklingrulle",
+            "price": 85,
+            "description": [
+                "Kyckling", 
+                "Jalapéno", 
+                "Currysås"
+            ]
+        }
+    ]
+}
