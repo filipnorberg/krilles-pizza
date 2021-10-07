@@ -1,12 +1,8 @@
 ---
-title: 'Hello, world'
+title: 'Krilles Pizza'
 layout: 'base.html'
 ---
-
-# {{ meta.title }}
-
 {{ meta.tagline }}
-
 ## {{ meta.phone }}
 ## {{ meta.adress }}
 
