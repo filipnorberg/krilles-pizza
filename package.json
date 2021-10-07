@@ -1,0 +1,23 @@
+{
+  "name": "krilles-pizza",
+  "version": "1.0.0",
+  "description": "",
+  "main": ".eleventy.js",
+  "scripts": {
+    "start": "npx eleventy --serve"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/filipnorberg/krilles-pizza.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/filipnorberg/krilles-pizza/issues"
+  },
+  "homepage": "https://github.com/filipnorberg/krilles-pizza#readme",
+  "dependencies": {
+    "@11ty/eleventy": "^0.12.1"
+  }
+}
