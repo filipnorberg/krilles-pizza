@@ -1,0 +1,16 @@
+{
+  "items": [
+    {
+      "name": "Hem",
+      "dest": "/"
+    },
+    {
+      "name": "Meny",
+      "dest": "/meny"
+    },
+    {
+      "name": "Kontakt",
+      "dest": "/kontakt"
+    }
+  ]
+}

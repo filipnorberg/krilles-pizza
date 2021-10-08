@@ -8,9 +8,7 @@
   </head>
   <body>
     {% include "components/header.html" %}
-    <main class="container">
-        {{ content | safe }}
-    </main>
+    <main class="container">{{ content | safe }}</main>
     {% include "components/footer.html" %}
   </body>
 </html>

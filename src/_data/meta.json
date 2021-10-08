@@ -1,8 +1,9 @@
 {
-    "title": "Krilles Pizza",
-    "tagline": "Krilles Pizza vill göra dina pizzor på fredagkvällarna med familjen fantastiska. En god elegant pizza som får alla på ett utsökt humör!",
-    "phone": "090-5267 85 95",
-    "adress": "Umeå, Storgatan 43",
-    "hours1": "11:00 - 20:00",
-    "hours2": "11:00 - 22:00"
+  "titel": "Krilles Pizza",
+  "beskrivning": "Krilles Pizza vill göra dina pizzor på fredagkvällarna med familjen fantastiska. En god elegant pizza som får alla på ett utsökt humör!",
+  "telefon": "090-5267 85 95",
+  "email": "krillespizza@gmail.com",
+  "adress": "Umeå, Storgatan 43",
+  "tider1": "11:00 - 20:00",
+  "tider2": "11:00 - 22:00"
 }
