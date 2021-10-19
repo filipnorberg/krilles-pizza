@@ -1,34 +1,22 @@
 {
-    "items": [
-        {
-            "number": 1,
-            "name": "Zuccinitallrik",
-            "price": 85,
-            "description": [
-                "Zuccini", 
-                "Pommes Frites", 
-                "Vitlökssås", 
-                "Jalapéno"
-            ]
-        },
-        {
-            "number": 2,
-            "name": "Vegopizza",
-            "price": 85,
-            "description": [
-                "Zuccini", 
-                "Jalapéno"
-            ]
-        },
-        {
-            "number": 3,
-            "name": "Vegorulle",
-            "price": 85,
-            "description": [
-                "Zuccini", 
-                "Jalapéno", 
-                "Vitlökssås"
-            ]
-        }
-    ]
+  "items": [
+    {
+      "number": 1,
+      "name": "Zuccinitallrik",
+      "price": 85,
+      "description": ["Zuccini", "Pommes Frites", "Vitlökssås"]
+    },
+    {
+      "number": 2,
+      "name": "Vegopizza",
+      "price": 85,
+      "description": ["Zuccini", "Jalapéno"]
+    },
+    {
+      "number": 3,
+      "name": "Vegorulle",
+      "price": 85,
+      "description": ["Zuccini", "Jalapéno", "Vitlökssås"]
+    }
+  ]
 }
