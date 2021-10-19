@@ -1,0 +1,25 @@
+<div class="menus">
+  <div class="menu">
+    <h2>Pizza</h2>
+    {% if pizza.items %} {% for item in pizza.items %}
+    <h3>{{ item.name }}</h3>
+    <p>{{ item.description }}</p>
+    {% endfor %} {% endif %}
+  </div>
+  <br />
+  <div class="menu">
+    <h2>Grill</h2>
+    {% if grill.items %} {% for item in grill.items %}
+    <h3>{{ item.name }}</h3>
+    <p>{{ item.description }}</p>
+    {% endfor %} {% endif %}
+  </div>
+  <br />
+  <div class="menu">
+    <h2>Vegetariskt</h2>
+    {% if vego.items %} {% for item in vego.items %}
+    <h3>{{ item.name }}</h3>
+    <p>{{ item.description }}</p>
+    {% endfor %} {% endif %}
+  </div>
+</div>
