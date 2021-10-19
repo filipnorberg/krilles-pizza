@@ -1,4 +1,4 @@
 ---
 title: "Krilles Pizza"
-layout: "hem.html"
+layout: "hem.njk"
 ---

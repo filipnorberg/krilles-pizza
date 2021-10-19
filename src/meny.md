@@ -1,6 +1,6 @@
 ---
 title: "Krilles Pizza"
-layout: "meny.html"
+layout: "meny.njk"
 ---
 
 # Meny

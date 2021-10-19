@@ -1,4 +1,4 @@
 ---
 title: "Krilles Pizza"
-layout: "kontakt.html"
+layout: "kontakt.njk"
 ---
