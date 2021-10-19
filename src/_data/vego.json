@@ -4,19 +4,19 @@
       "number": 1,
       "name": "Zuccinitallrik",
       "price": 85,
-      "description": ["Zuccini", "Pommes Frites", "Vitlökssås"]
+      "description": ["Zuccini", " Pommes ", " Vitlökssås"]
     },
     {
       "number": 2,
       "name": "Vegopizza",
       "price": 85,
-      "description": ["Zuccini", "Jalapéno"]
+      "description": ["Zuccini", " Jalapéno"]
     },
     {
       "number": 3,
       "name": "Vegorulle",
       "price": 85,
-      "description": ["Zuccini", "Jalapéno", "Vitlökssås"]
+      "description": ["Zuccini", " Jalapéno", " Vitlökssås"]
     }
   ]
 }

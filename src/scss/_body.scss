@@ -1,5 +1,8 @@
 body {
-    background-image: url(../assets/images/BackgroundPizza.png);
-    background-size: contain;
-    background-repeat: repeat-y;
+  display: flex;
+  flex-direction: column;
+  background-image: url(../assets/images/BackgroundPizza.png);
+  background-size: 120vw;
+  background-repeat: repeat-y space;
+  background-position: center 30vh;
 }

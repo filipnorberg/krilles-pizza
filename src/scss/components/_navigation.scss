@@ -1,12 +1,15 @@
 nav {
+  margin: auto;
+  width: 90%;
   display: flex;
   justify-content: center;
-}
-
-nav a {
-  font-size: 1.3rem;
-  font-weight: 700;
-  text-decoration: none;
-  color: black;
-  padding: 1rem;
+  a {
+    text-align: center;
+    width: 33%;
+    font-size: 1.3rem;
+    font-weight: 700;
+    text-decoration: none;
+    color: black;
+    padding: 1rem;
+  }
 }

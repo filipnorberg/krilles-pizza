@@ -1,0 +1,41 @@
+<div class="menus">
+  <div class="menu">
+    <h2 class="menu-title rufina">Pizzor</h2>
+    <p class="merriweather">*Alla pizzor har tomatsås, ost och surdegsbotten*</p>
+    {% if pizza.items %} {% for item in pizza.items %}
+      <div class="item nunito">
+        <div class="upper">
+          <p class="menu-weight">{{ item.name }}</p>
+          <p class="right menu-weight">{{ item.price }}kr</p>
+      </div>
+      <p class="desc flex nunito">{{ item.description }}</p>
+    </div>
+    {% endfor %} {% endif %}
+  </div>
+  <br />
+  <div class="menu">
+    <h2 class="menu-title rufina">Grill</h2>
+    {% if grill.items %} {% for item in grill.items %}
+      <div class="item nunito">
+        <div class="upper">
+          <p class="menu-weight">{{ item.name }}</p>
+          <p class="right menu-weight">{{ item.price }}kr</p>
+      </div>
+      <p class="desc flex nunito">{{ item.description }}</p>
+    </div>
+    {% endfor %} {% endif %}
+  </div>
+  <br />
+  <div class="menu">
+    <h2 class="menu-title rufina">Vegetariskt</h2>
+    {% if vego.items %} {% for item in vego.items %}
+      <div class="item nunito">
+        <div class="upper">
+          <p class="menu-weight">{{ item.name }}</p>
+          <p class="right menu-weight">{{ item.price }}kr</p>
+      </div>
+      <p class="desc flex nunito">{{ item.description }}</p>
+    </div>
+    {% endfor %} {% endif %}
+  </div>
+</div>

@@ -1,44 +1,34 @@
 {
-    "items": [
-        {
-            "number": 1,
-            "name": "Margarita",
-            "price": 75,
-            "description": "Ost"
-        },
-        {
-            "number": 2,
-            "name": "Vesuvio",
-            "price": 85,
-            "description": "Skinka"
-        },
-        {
-            "number": 3,
-            "name": "Capricciosa",
-            "price": 85,
-            "description": [
-                "Skinka", 
-                "Svamp"
-            ]
-        },
-        {
-            "number": 4,
-            "name": "Hawaii",
-            "price": 85,
-            "description": [
-                "Skinka", 
-                "Ananas"
-            ]
-        },
-        {
-            "number": 5,
-            "name": "Kebabpizza",
-            "price": 85,
-            "description": [
-                "Kebab", 
-                "Jalapéno", 
-                "Vitlökssås"
-            ]
-        }
-    ]
+  "items": [
+    {
+      "number": 1,
+      "name": "Margarita",
+      "price": 75,
+      "description": "Ost"
+    },
+    {
+      "number": 2,
+      "name": "Vesuvio",
+      "price": 85,
+      "description": "Skinka"
+    },
+    {
+      "number": 3,
+      "name": "Capricciosa",
+      "price": 85,
+      "description": ["Skinka", " Svamp"]
+    },
+    {
+      "number": 4,
+      "name": "Hawaii",
+      "price": 85,
+      "description": ["Skinka", " Ananas"]
+    },
+    {
+      "number": 5,
+      "name": "Kebabpizza",
+      "price": 85,
+      "description": ["Kebab", " Jalapéno", " Vitlökssås"]
+    }
+  ]
 }

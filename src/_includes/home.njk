@@ -1,0 +1,34 @@
+---
+title: krillespizza
+layout: base.njk
+---
+
+<p class="description merriweather">
+    {{ meta.beskrivning }}
+</p>
+{% include "partials/order-link.njk" %}
+
+<div class="kontakt">
+    <div class="number">
+          <div class="title">
+        <img class="svg" src="/assets/svg/Phone.svg">
+              <h3>090-5267 85 95</h3>
+          </div>
+    </div>
+    <div class="tid">
+        <div class="title">
+        <img class="svg" src="/assets/svg/Clock.svg">
+            <h3>Öppettider</h3>
+        </div>
+          <p class="semi-title">Mån - Fre
+              <p>11:00 - 20:00</p>
+          </p>
+          <p class="semi-title">Lör - Sön
+              <p>11:00 - 22:00</p>
+          </p>
+    </div>
+    <div class="exact-location">
+        <img class="svg" src="/assets/svg/Pin.svg">
+        <p>Umeå, Storgatan 43</p>
+    </div>
+</div>
