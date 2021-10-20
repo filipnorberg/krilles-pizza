@@ -6,11 +6,11 @@
     },
     {
       "name": "Meny",
-      "dest": "/meny"
+      "dest": "/menu"
     },
     {
       "name": "Kontakt",
-      "dest": "/kontakt"
+      "dest": "/contact"
     }
   ]
 }

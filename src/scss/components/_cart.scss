@@ -1,0 +1,19 @@
+.quantity {
+    display: flex;
+    border-radius: 3px;
+
+    & > * {
+        border: 1px solid #DDDDDD;
+        padding: 0 0.5rem 0 0.5rem;
+    }
+    .plus , .min {
+        background-color: #DDDDDD;
+    }
+    .plus:hover:hover , .min:hover {
+        background-color: white;
+    }
+}
+
+.cart {
+    background-color: white;
+}

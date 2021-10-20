@@ -1,0 +1,98 @@
+{
+  "items": [
+    {
+      "name": "Pizzor",
+      "desc": "*Alla pizzor har tomatsås, ost och surdegsbotten*",
+      "items": [
+        {
+          "number": 1,
+          "name": "Margarita",
+          "price": 75,
+          "description": "Ost"
+        },
+        {
+          "number": 2,
+          "name": "Vesuvio",
+          "price": 85,
+          "description": "Skinka"
+        },
+        {
+          "number": 3,
+          "name": "Capricciosa",
+          "price": 85,
+          "description": ["Skinka", " Svamp"]
+        },
+        {
+          "number": 4,
+          "name": "Hawaii",
+          "price": 85,
+          "description": ["Skinka", " Ananas"]
+        },
+        {
+          "number": 5,
+          "name": "Kebabpizza",
+          "price": 85,
+          "description": ["Kebab", " Jalapéno", " Vitlökssås"]
+        }
+      ]
+    },
+    {
+      "name": "Vegetariskt",
+      "items": [
+        {
+          "number": 1,
+          "name": "Zuccinitallrik",
+          "price": 85,
+          "description": ["Zuccini", " Pommes ", " Vitlökssås"]
+        },
+        {
+          "number": 2,
+          "name": "Vegopizza",
+          "price": 85,
+          "description": ["Zuccini", " Jalapéno"]
+        },
+        {
+          "number": 3,
+          "name": "Vegorulle",
+          "price": 85,
+          "description": ["Zuccini", " Jalapéno", " Vitlökssås"]
+        }
+      ]
+    },
+    {
+      "name": "Grill",
+      "items": [
+        {
+          "number": 1,
+          "name": "Kebabtallrik",
+          "price": 85,
+          "description": ["Kebab", " Pommes", " Vitlökssås", " Jalapéno"]
+        },
+        {
+          "number": 2,
+          "name": "Gyrostallrik",
+          "price": 85,
+          "description": ["Fläsk", " Pommes", " Vitlökssås"]
+        },
+        {
+          "number": 3,
+          "name": "Kycklingtallrik",
+          "price": 85,
+          "description": ["Kyckling", " Pommes", " Currysås"]
+        },
+        {
+          "number": 4,
+          "name": "Kebabrulle",
+          "price": 85,
+          "description": ["Kebab", " Jalapéno", " Vitlökssås"]
+        },
+        {
+          "number": 5,
+          "name": "Kycklingrulle",
+          "price": 85,
+          "description": ["Kyckling", " Jalapéno", " Currysås"]
+        }
+      ]
+    }
+  ]
+}

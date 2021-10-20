@@ -1,0 +1,15 @@
+.button {
+  background-color: #ff7376;
+  border: none;
+  display: flex;
+  padding: 1rem;
+  font-size: 2rem;
+  align-items: center;
+  border-radius: 3px;
+  margin: auto;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  &-icon {
+    margin-right: 1rem;
+  }
+}

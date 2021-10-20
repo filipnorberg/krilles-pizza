@@ -1,0 +1,9 @@
+.home {
+  text-align: center;
+  display: flex;
+  flex-direction:column;
+  &-description{
+      letter-spacing: 0.1rem;
+      margin: 0.5rem 0 1rem 0;
+  }
+}
