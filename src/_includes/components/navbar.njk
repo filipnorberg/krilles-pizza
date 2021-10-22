@@ -1,5 +1,9 @@
 <nav>
-  {% for item in navigation.items %}
-  <a class="lato nav-item"href="{{ item.dest }}">{{ item.name }}</a>
-  {% endfor %}
+  <ul>
+    {% for item in navigation.items %}
+      <li>
+        <a class="lato nav-item"href="{{ item.dest }}">{{ item.name }}</a>
+      </li>  
+    {% endfor %}
+  </ul>
 </nav>

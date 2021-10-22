@@ -7,7 +7,7 @@
     {% endif %}
     
     {% for food in item.items %}
-      <div class="menu-item nunito">
+      <div id="{{ food.id }}" class="menu-item nunito">
         <div class="menu-upper">
           <p class="menu-weight">{{ food.name }}</p>
           <p class="right menu-weight">{{ food.price }}kr</p>
@@ -15,6 +15,6 @@
       <p class="menu-description flex nunito">{{ food.description }}</p>
     </div>
     {% endfor %}
+      </div>
     {% endfor %}
-  </div>
 </div>

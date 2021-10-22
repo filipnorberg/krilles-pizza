@@ -37,29 +37,6 @@
       ]
     },
     {
-      "name": "Vegetariskt",
-      "items": [
-        {
-          "number": 1,
-          "name": "Zuccinitallrik",
-          "price": 85,
-          "description": ["Zuccini", " Pommes ", " Vitlökssås"]
-        },
-        {
-          "number": 2,
-          "name": "Vegopizza",
-          "price": 85,
-          "description": ["Zuccini", " Jalapéno"]
-        },
-        {
-          "number": 3,
-          "name": "Vegorulle",
-          "price": 85,
-          "description": ["Zuccini", " Jalapéno", " Vitlökssås"]
-        }
-      ]
-    },
-    {
       "name": "Grill",
       "items": [
         {
@@ -91,6 +68,29 @@
           "name": "Kycklingrulle",
           "price": 85,
           "description": ["Kyckling", " Jalapéno", " Currysås"]
+        }
+      ]
+    },
+    {
+      "name": "Vegetariskt",
+      "items": [
+        {
+          "number": 1,
+          "name": "Zuccinitallrik",
+          "price": 85,
+          "description": ["Zuccini", " Pommes ", " Vitlökssås"]
+        },
+        {
+          "number": 2,
+          "name": "Vegopizza",
+          "price": 85,
+          "description": ["Zuccini", " Jalapéno"]
+        },
+        {
+          "number": 3,
+          "name": "Vegorulle",
+          "price": 85,
+          "description": ["Zuccini", " Jalapéno", " Vitlökssås"]
         }
       ]
     }

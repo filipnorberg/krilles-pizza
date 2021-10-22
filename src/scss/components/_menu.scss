@@ -1,4 +1,6 @@
 .menus {
+  width: 100%;
+  margin: auto;
 }
 
 .menu {
@@ -8,7 +10,7 @@
     font-size: 1.2rem;
   }
   &-title {
-    margin: 3rem;
+    margin: 0 2rem 2rem 2rem;
     font-size: 2.5rem;
   }
   &-upper {
@@ -33,4 +35,17 @@
 
 .flex {
   display: flex;
+}
+
+@media only screen and (min-width: 900px) {
+  .menus {
+    width: 90%;
+    display: flex;
+    justify-content: center;
+  }
+  .menu {
+    margin: 0 auto 0 auto;
+    padding: 0 2rem 0 2rem;
+    width: 30%;
+  }
 }

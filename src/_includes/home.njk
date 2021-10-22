@@ -6,30 +6,34 @@ layout: base.njk
     <p class="home-description merriweather">
         {{ meta.beskrivning }}
     </p>
-    <a href="/order">
-        {% include "partials/order-button.njk" %}
-    </a>
+    <div class="home-menu">
 
-    <div class="contact">
-        <div class="contact-number contact-weight">
-            <img class="svg" src="/assets/svg/Phone.svg">
-            <p class="nunito">090-5267 85 95</p>
-        </div>
-        <div class="contact-hours">
-            <div class="contact-hours-title">
-                <img class="svg" src="/assets/svg/Clock.svg">
-                <p class="nunito contact-weight">Öppettider</p>
+        <a class="home-button" href="/order">
+            {% include "partials/order-button.njk" %}
+        </a>
+        <div class="contact home-contact">
+            <div class="contact-hours">
+                <div class="contact-hours-title">
+                    <img class="svg" src="/assets/svg/Clock.svg">
+                    <p class="nunito contact-weight">Öppettider</p>
+                </div>
+                <ul class="contact-hours-list">
+                    <li class="nunito">Mån - Fre</li>
+                    <li class="contact-hours-units nunito">11:00 - 20:00</li>
+                    <li class="nunito">Lör - Sön</li>
+                    <li class="contact-hours-units nunito">11:00 - 22:00</li>
+                </ul>
             </div>
-            <ul class="contact-hours-list">
-                <li class="nunito">Mån - Fre</li>
-                <li class="contact-hours-units nunito">11:00 - 20:00</li>
-                <li class="nunito">Lör - Sön</li>
-                <li class="contact-hours-units nunito">11:00 - 22:00</li>
-            </ul>
-        </div>
-        <div class="contact-location-exact">
-            <img class="svg" src="/assets/svg/Pin.svg">
-            <p class="nunito contact-weight">Umeå, Storgatan 43</p>
+            <div>
+                <div class="contact-number contact-weight">
+                    <img class="svg" src="/assets/svg/Phone.svg">
+                    <p class="nunito">090-5267 85 95</p>
+                </div>
+                <div class="contact-location-exact">
+                    <img class="svg" src="/assets/svg/Pin.svg">
+                    <p class="nunito contact-weight">Umeå, Storgatan 43</p>
+                </div>
+            </div>
         </div>
     </div>
 </div>
